@@ -1,0 +1,11 @@
+1.- ¿Que es y para que sirve JQUERY?
+2.- ¿Como integrar JQUERY a un pagina web?
+3.- Diferencias entre las versiones de JQUERY
+4.- Selectores en JQUERY
+5.- Eventos dentro de JQUERY
+6.- Efectos y animaciones 
+7.- AJax
+8.- JQUERY UI
+9.- Animaciones
+10.- Plugins/Widgets
+11.- Proyecto Javascript + JQUERY 

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styleInterfaz.css">
+    
+    <script src="../js/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="../jquery-ui-1.13.2/jquery-ui.min.css">
+    <link rel="stylesheet" href="..//jquery-ui-1.13.2/jquery-ui.structure.css">
+    <link rel="stylesheet" href="..//jquery-ui-1.13.2/jquery-ui.theme.min.css">
+    <script src="../jquery-ui-1.13.2/jquery-ui.min.js"></script>
+    <script src="../js/interfaz.js"></script>
+
+    <title> JQUERY -- JQUERY UI</title>
+</head>
+<body>
+    <h1>JQUERY</h1>
+    <hr>
+    <h3>Tooltip</h3>
+    
+    <a href="#" title="Acceder a la seleccion de mis datos de esta web">Mis datos</a>
+    <a href="#" title="Loguearse a esta web">Identificarse</a>
+    <a href="#" title="Ver todos mis amigos">Mis amigos</a>
+
+    <hr>
+    <h3>Cuadros de Dialogo</h3>
+    <button id="lanzar-popup">Lanzame</button>
+    <div id="popup" title="¿Estas seguro?" style="display: none;">
+        <p>Aprenderas mucho de javascript</p>
+    </div>
+
+    <hr>
+    <h3>Calendario</h3>
+    <input type="text" id="calendario">
+    <hr>
+    <h3>Pestañas</h3>
+    <div id="pestanas">
+        <ul>
+            <li><a href="#tabs-1">Pestañas 1</a></li>
+            <li><a href="#tabs-2">Pestañas 2</a></li>
+            <li><a href="#tabs-3">Pestañas 3</a></li>
+
+        </ul>
+        <div id="tabs-1">
+            Primera Pestaña
+        </div>
+        <div id="tabs-2">
+            Segunda Pestaña
+        </div>
+        <div id="tabs-3">
+            Tercera Pestaña
+        </div>
+    </div>
+    <hr>
+
+    <button id="mostrar">Mostrar</button>
+    <div class="box-efectos elemento"></div>
+
+    <div id="elemento_movido"class></div>
+    <br>
+    <div id="area"></div>
+
+    <ul class="lista_seleccionable">
+        <li>GTA V</li>
+        <li>Need for speed</li>
+        <li>Super Mario Bros</li>
+        <li>Clash Royale</li>
+        <li>PUBG</li>
+    </ul>
+
+    <div class="elemento">Elemento de Web</div>
+    <div class="elemento">Elemento de Web</div>
+    <div class="elemento">Elemento de Web</div>
+</body>
+</html>
